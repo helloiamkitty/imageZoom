@@ -60,3 +60,6 @@ JS
 
 
 **注：IE8以下由于不支持CSS3的`border-radius`属性，放大镜将会展示成方形**
+
+
+[查看demo](http://helloiamkitty.github.io/imageZoom/)
