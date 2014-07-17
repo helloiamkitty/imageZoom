@@ -17,7 +17,7 @@ JS
 
 	$('#zoom').imageZoom();
 
-**注意，img标签的width和height属性需设置成比图片的尺寸小，才能实现放大的效果。**
+**注：img标签的width和height属性需设置成比图片的尺寸小，才能实现放大的效果。**
 
 效果如下：
 
@@ -58,3 +58,5 @@ JS
 
 ![demo1](demo/demo3.jpg)
 
+
+**注：IE8以下由于不支持CSS3的`border-radius`属性，放大镜将会展示成方形**
