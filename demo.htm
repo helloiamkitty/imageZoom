@@ -1,0 +1,26 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="jquery.imageZoom.js"></script>
+</head>
+<body>
+	<img width="590" height="500" src="avatar.jpg" alt="" id="raw" />
+    <img width="354" height="300" src="avatar.jpg" alt="" id="zoom" />
+<script type="text/javascript">
+	$('#raw').imageZoom({
+        zoomSize: 180,
+		borderSize: 0,
+		borderColor: '#fff',
+		imageSrc: "raw.jpg"
+	});
+    $('#zoom').imageZoom({
+        zoomSize: 180,
+		borderSize: 8,
+		borderColor: '#0d0'
+	});
+</script>
+</body>
+</html>
